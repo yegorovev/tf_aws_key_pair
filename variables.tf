@@ -25,3 +25,9 @@ variable "local_path" {
   nullable    = false
   default     = "./"
 }
+
+variable "tags" {
+  description = "Tags"
+  type        = map(string)
+  nullable    = false
+}
